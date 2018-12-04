@@ -12,9 +12,9 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "scripts": {
-        "dev": "gulp",
-        "zip": "gulp zip",
-        "test": "gscan ."
+        "dev": "./node_modules/.bin/gulp",
+        "zip": "./node_modules/.bin/gulp zip",
+        "test": "./node_modules/.bin/gscan ."
     },
     "author": {
         "name": "Ghost Foundation",
